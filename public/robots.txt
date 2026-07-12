@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aberaberhe.github.io/Object/sitemap.xml
+Sitemap: https://aberaberhe787-cloud.github.io/aberaberhe/sitemap.xml

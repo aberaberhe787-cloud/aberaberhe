@@ -45,7 +45,7 @@ function App() {
     return () => controller.abort()
   }, [])
   useEffect(() => {
-    const schema = { '@context': 'https://schema.org', '@type': 'Person', name: profile.name, url: 'https://aberaberhe.github.io/Object/', sameAs: [`https://github.com/${profile.github}`], jobTitle: 'IT professional', knowsAbout: profile.skills }
+    const schema = { '@context': 'https://schema.org', '@type': 'Person', name: profile.name, url: 'https://aberaberhe787-cloud.github.io/aberaberhe/', sameAs: [`https://github.com/${profile.github}`], jobTitle: 'IT professional', knowsAbout: profile.skills }
     const script = document.createElement('script'); script.type = 'application/ld+json'; script.text = JSON.stringify(schema); document.head.append(script)
     return () => script.remove()
   }, [])
